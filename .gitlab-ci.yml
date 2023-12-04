@@ -1,0 +1,108 @@
+# This file is a template, and might need editing before it works on your project.
+# To contribute improvements to CI/CD templates, please follow the Development guide at:
+# https://docs.gitlab.com/ee/development/cicd/templates.html
+# This specific template is located at:
+# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
+
+# This is a sample GitLab CI/CD configuration file that should run without any modifications.
+# It demonstrates a basic 3 stage CI/CD pipeline. Instead of real tests or scripts,
+# it uses echo commands to simulate the pipeline execution.
+#
+# A pipeline is composed of independent jobs that run scripts, grouped into stages.
+# Stages run in sequential order, but jobs within stages run in parallel.
+#
+# For more information, see: https://docs.gitlab.com/ee/ci/yaml/index.html#stages
+
+stages: # List of stages for jobs, and their order of execution
+  - check
+  - sitemap
+  - build
+  - deploy
+
+generate_sitemap:
+  stage: sitemap
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: always
+  script:
+    - npm install dotenv @prismicio/client
+    - npm run updateSitemap
+sitemap_staging:
+  stage: sitemap
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == "develop"
+      when: always
+  dependencies:
+    - generate_sitemap
+  environment:
+    name: staging
+    url: https://stage2.brella.com
+  script:
+    - echo "Uploading sitemap to staging"
+    - scp public/sitemap.xml stage2.brella.com@stage2.brella.com:/var/www/stage2.brella.com/ || exit 97
+
+build-job: # This job runs in the build stage, which runs first.
+  stage: build
+  rules:
+  - if: $CI_PIPELINE_SOURCE != "schedule" && ($CI_COMMIT_BRANCH == "develop" || $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main")
+    when: always
+  script:
+    - echo "Compiling the code..."
+    # - apt-get update && apt-get install -y chromium-browser
+    - npm install
+    - npm run build
+    - echo "Compile complete."
+  artifacts:
+    paths:
+      - build/
+
+deploy_staging:
+  stage: deploy
+  rules:
+  - if: $CI_PIPELINE_SOURCE != "schedule" && $CI_COMMIT_BRANCH == "develop"
+    when: always
+  dependencies:
+    - build-job
+  environment:
+    name: staging
+    url: https://stage2.brella.com
+  script:
+    - echo "Deploying staging application..."
+    - ssh stage2.brella.com@stage2.brella.com 'rm -rf /var/www/stage2.brella.com/build' || exit 98
+    - scp -r build/ stage2.brella.com@stage2.brella.com:/var/www/stage2.brella.com/ || exit 97
+    - ssh stage2.brella.com@stage2.brella.com 'cd /var/www/stage2.brella.com && rm -rf public_html.1' || exit 96
+    - ssh stage2.brella.com@stage2.brella.com 'cd /var/www/stage2.brella.com && mv public_html public_html.1' || exit 95
+    - ssh stage2.brella.com@stage2.brella.com 'cd /var/www/stage2.brella.com && mv build public_html' || exit 94
+
+    # Insecure workaround to SSL issues (see https://docs.gitlab.com/runner/configuration/tls-self-signed.html):
+    #- GIT_SSL_NO_VERIFY=true
+    # diagnostic to capture run time environment:
+    - env > /var/tmp/git-pipeline$$.env
+
+    - echo "Staging application successfully deployed."
+
+deploy_production:
+  stage: deploy
+  rules:
+  - if: $CI_PIPELINE_SOURCE != "schedule" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"
+    when: always
+  dependencies:
+    - build-job
+  environment:
+    name: production
+    url: https://brella.com
+  script:
+    - echo "Deploying production application..."
+
+    - ssh brellacom@brella-cp1.brella.net 'cd /var/www/brella.com && rm -rf public_html.1' || exit 99
+    - ssh brellacom@brella-cp1.brella.net 'cd /var/www/brella.com && cp -pr public_html public_html.1' || exit 98
+    - scp -r build/* brellacom@brella-cp1.brella.net:/var/www/brella.com/public_html || exit 97
+
+    # Insecure workaround to SSL issues (see https://docs.gitlab.com/runner/configuration/tls-self-signed.html):
+    #- GIT_SSL_NO_VERIFY=true
+    # diagnostic to capture run time environment:
+    - env > /var/tmp/git-pipeline$$.env
+
+    #- ssh brella.com@brella-cp1.brella.net
+    - echo "Production application successfully deployed." 
+

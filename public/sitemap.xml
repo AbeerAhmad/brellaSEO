@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://brella.com/</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/Home-hero.f65c7ead153982db97ff.jpg
+            </image:loc>
+        </image:image>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://brella.com/events</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/meetings-header@2x.4bfddcdfe1006139a779.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/video</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/meetings-header@2x.4bfddcdfe1006139a779.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/design</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/meetings-header@2x.4bfddcdfe1006139a779.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/elearning</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/meetings-header@2x.4bfddcdfe1006139a779.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/learning</loc>
+        <image:image>
+            <image:loc>
+                https://brella.com/static/media/learning_Main_img_@2x.d59933ca84ff31ad5220.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/meetingsevents</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/meetings-header@2x.4bfddcdfe1006139a779.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/corporate</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/meetings-header@2x.4bfddcdfe1006139a779.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/customer</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/meetings-header@2x.4bfddcdfe1006139a779.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/internal</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/meetings-header@2x.4bfddcdfe1006139a779.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/portfolio</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://brella.com/about</loc>
+    </url>
+    <url>
+        <loc>https://brella.com/careers</loc>
+        <image:image>
+            <image:loc>https://brella.com/static/media/careers-header@2x.246397617aeb1309076f.jpg
+            </image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://brella.com/contact</loc>
+    </url>
+    <url>
+        <loc>https://brella.com/training-as-an-event</loc>
+    </url>
+    <url>
+        <loc>https://brella.com/blog</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>
+            https://brella.com/blog/evolving-your-engagement-in-2021-why-virtual-sales-trainings-require-an-agile-approach</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/as-we-discussed-in-our-vr-whitepaper-one-of-the-early</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/build-up-your-workforce-and-boost-your-brand-with-employee</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/whiteboard-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/vr-video-the-future-is-now</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/helping-kids-and-adults-get-s.m.a.r.t.</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/universal-biosciences-ub-conducted-a-six-agency-search</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/go-mobile-go-native</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/broadcasting-the-storm</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-and-production-resource-group-prg-joined-forces</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/what-sticks-with-audiences</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/7-ways-a-hashtag-can-make-your-event-live-on</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/design-your-conference-with-your-guests-in-mind</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/animating-financial-literacy</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rotarys-x-ray-vision</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-grows-a-beard</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/beacons-beacons-everywhere</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/another-glamorous-gala-for-yjc</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/fat-pipes-for-big-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rebranding-live</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>
+            https://brella.com/blog/evolving-your-engagement-in-2021-why-virtual-sales-trainings-require-an-agile-approach</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/as-we-discussed-in-our-vr-whitepaper-one-of-the-early</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/build-up-your-workforce-and-boost-your-brand-with-employee</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/whiteboard-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/vr-video-the-future-is-now</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/helping-kids-and-adults-get-s.m.a.r.t.</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/universal-biosciences-ub-conducted-a-six-agency-search</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/go-mobile-go-native</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/broadcasting-the-storm</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-and-production-resource-group-prg-joined-forces</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/what-sticks-with-audiences</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/7-ways-a-hashtag-can-make-your-event-live-on</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/design-your-conference-with-your-guests-in-mind</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/animating-financial-literacy</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rotarys-x-ray-vision</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-grows-a-beard</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/beacons-beacons-everywhere</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/another-glamorous-gala-for-yjc</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/fat-pipes-for-big-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rebranding-live</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>
+            https://brella.com/blog/evolving-your-engagement-in-2021-why-virtual-sales-trainings-require-an-agile-approach</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/as-we-discussed-in-our-vr-whitepaper-one-of-the-early</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/build-up-your-workforce-and-boost-your-brand-with-employee</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/whiteboard-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/vr-video-the-future-is-now</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/helping-kids-and-adults-get-s.m.a.r.t.</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/universal-biosciences-ub-conducted-a-six-agency-search</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/go-mobile-go-native</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/broadcasting-the-storm</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-and-production-resource-group-prg-joined-forces</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/what-sticks-with-audiences</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/7-ways-a-hashtag-can-make-your-event-live-on</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/design-your-conference-with-your-guests-in-mind</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/animating-financial-literacy</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rotarys-x-ray-vision</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-grows-a-beard</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/beacons-beacons-everywhere</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/another-glamorous-gala-for-yjc</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/fat-pipes-for-big-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rebranding-live</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>
+            https://brella.com/blog/evolving-your-engagement-in-2021-why-virtual-sales-trainings-require-an-agile-approach</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/as-we-discussed-in-our-vr-whitepaper-one-of-the-early</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/build-up-your-workforce-and-boost-your-brand-with-employee</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/whiteboard-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/vr-video-the-future-is-now</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/helping-kids-and-adults-get-s.m.a.r.t.</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/universal-biosciences-ub-conducted-a-six-agency-search</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/go-mobile-go-native</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/broadcasting-the-storm</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-and-production-resource-group-prg-joined-forces</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/what-sticks-with-audiences</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/7-ways-a-hashtag-can-make-your-event-live-on</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/design-your-conference-with-your-guests-in-mind</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/animating-financial-literacy</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rotarys-x-ray-vision</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-grows-a-beard</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/beacons-beacons-everywhere</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/another-glamorous-gala-for-yjc</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/fat-pipes-for-big-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rebranding-live</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>
+            https://brella.com/blog/evolving-your-engagement-in-2021-why-virtual-sales-trainings-require-an-agile-approach</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/as-we-discussed-in-our-vr-whitepaper-one-of-the-early</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/build-up-your-workforce-and-boost-your-brand-with-employee</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/whiteboard-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/vr-video-the-future-is-now</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/helping-kids-and-adults-get-s.m.a.r.t.</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/universal-biosciences-ub-conducted-a-six-agency-search</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/go-mobile-go-native</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/broadcasting-the-storm</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-and-production-resource-group-prg-joined-forces</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/what-sticks-with-audiences</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/7-ways-a-hashtag-can-make-your-event-live-on</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/design-your-conference-with-your-guests-in-mind</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/animating-financial-literacy</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rotarys-x-ray-vision</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-grows-a-beard</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/beacons-beacons-everywhere</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/another-glamorous-gala-for-yjc</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/fat-pipes-for-big-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rebranding-live</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>
+            https://brella.com/blog/evolving-your-engagement-in-2021-why-virtual-sales-trainings-require-an-agile-approach</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/as-we-discussed-in-our-vr-whitepaper-one-of-the-early</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/build-up-your-workforce-and-boost-your-brand-with-employee</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/whiteboard-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/vr-video-the-future-is-now</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/helping-kids-and-adults-get-s.m.a.r.t.</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/universal-biosciences-ub-conducted-a-six-agency-search</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/go-mobile-go-native</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/broadcasting-the-storm</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-and-production-resource-group-prg-joined-forces</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/what-sticks-with-audiences</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/7-ways-a-hashtag-can-make-your-event-live-on</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/design-your-conference-with-your-guests-in-mind</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/animating-financial-literacy</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rotarys-x-ray-vision</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/brella-grows-a-beard</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/beacons-beacons-everywhere</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/another-glamorous-gala-for-yjc</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/fat-pipes-for-big-videos</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://brella.com/blog/rebranding-live</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+</urlset>

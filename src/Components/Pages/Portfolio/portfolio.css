@@ -1,0 +1,249 @@
+
+.portfolio-page {
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 999;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.portfolio-page .row {
+  margin: 0;
+}
+.portfolio-page-close {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  background-image: url(../../../assets/icons/arrow-back-circle.png);
+}
+.portfolio-box-white {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  height: 100%;
+  padding: 1rem;
+}
+.port-text-box {
+  color: white;
+}
+.port-h1 {
+  font-family: "FuturaStd-Condensed";
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.port-h1-bold {
+  font-family: "FuturaStd-CondensedBold";
+}
+
+.port-h2 {
+  font-family: "FuturaStd-CondensedBold";
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.port-img-responsive {
+  /*display: block;*/
+  max-width: 100%;
+  height: auto;
+}
+
+.port-case-study {
+  width: 140px;
+  height: 38px; /* line-height should match */
+  border-radius: 2px;
+  background-color: #00b9b6;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 38px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.port-filter-back {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.port-filter-button {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  text-transform: none;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.port-filter-circle {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 6px;
+  width: 24px;
+  height: 24px;
+  background: #000;
+  border: 2px solid #fff;
+}
+.port-filter-circle-selected {
+  background: #f5803b;
+}
+.port-panel-image {
+  width: auto;
+  height: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.port-background {
+
+  width: 100%;
+  height: auto;
+
+}
+
+.port-list-back {
+  padding-top: 1rem;
+  min-height: 100vh;
+  z-index: 9;
+}
+
+.port-panel {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.port-panel-rollover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  overflow: hidden;
+}
+.port-panel-rollover-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  transition: 1s;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "FuturaStd-CondensedBold", Futura, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.port-panel-rollover-back:hover {
+  opacity: 1;
+  padding-bottom: 0;
+}
+
+/* Keeps space between portfolio text & portfolio media/video consistent as browser shrinks */
+
+ @media (max-width: 1200px) {
+  .vimeo-iframe-mobile {
+    height: 290%;
+  }
+}
+
+@media (max-width: 992px) {
+  .vimeo-iframe-mobile {
+    height: 220%;
+  }
+}
+
+@media (max-width: 768px) {
+  .vimeo-iframe-mobile {
+    height: 152%;
+  }
+} 
+
+@media (max-width: 320px) {
+  .vimeo-iframe-mobile {
+    height: 300px;
+  }
+} 
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .port-panel-image {
+    height: 150px;
+  }
+  .port-panel {
+    margin-left: 0;
+  }
+  .portfolio-box-white {
+    padding: 2rem;
+  }
+  .port-h1 {
+    font-size: 25px;
+  }
+  .port-list-back {
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  .port-panel-rollover {
+    padding-left: 0;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .portfolio-page-close {
+    float: right;
+  }
+  .port-panel-image {
+    height: 210px;
+  }
+  .port-panel-rollover-back {
+    /*background-image: url(../../../assets/portfolio-view-btn.png);*/
+    background-position: center 30px;
+  }
+  .portfolio-box-white {
+    padding: 1.5rem 2rem;
+  }
+  .port-h1 {
+    font-size: 30px;
+  }
+  .port-panel-image {
+    height: 260px;
+  }
+}
+.port-pointer {
+  cursor: pointer;
+}
+/* Could/Should be in the main css */
+.port-mobile-hide {
+  display: none;
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .port-mobile-hide {
+    display: block;
+  }
+}

@@ -1,0 +1,14 @@
+.animated-portal-enter {
+  opacity: 0;
+}
+.animated-portal-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.animated-portal-exit {
+  opacity: 1;
+}
+.animated-portal-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}

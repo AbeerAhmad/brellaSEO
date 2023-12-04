@@ -1,0 +1,269 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://www.google.com" />
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style type="text/css">
+      #containForm {
+        position: relative;
+        max-width: 1250px;
+        padding: 15px;
+        margin: 0 auto;
+        /* background-color: #e6e8e9; */
+      }
+      .label {
+        display: inline-flex;
+        flex-direction: row;
+        width: 100%;
+        height: 12px;
+        font-family: "FuturaStd-Condensed", Futura, Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        color: rgb(40 40 40);
+        padding: 5px 0 5px 0;
+        @media (max-width: 500px) {
+          font-size: 10px;
+        }
+        @media (max-width: 320px) {
+          font-size: 8px;
+        }
+      }
+      .formStyle {
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1200px;
+        @media (max-width: 950px) {
+          grid-template-columns: 1fr;
+        }
+      }
+      input {
+        width: 90%;
+        color: rgb(40 40 40);
+        height: 65px;
+        border: solid 2px #f3803b;
+        background: transparent;
+        background-blend-mode: overlay;
+        padding: 7px 13.5px 8px 14px;
+        background: white;
+      }
+      input:focus {
+        width: 90%;
+        color: rgb(40 40 40);
+        height: 65px;
+        border-radius: 2px;
+        border: solid 2px #f3803b;
+        background: transparent;
+        background-blend-mode: overlay;
+        padding: 7px 13.5px 8px 14px;
+        background: white;
+        box-shadow: 0 0 11px #f4803b;
+        outline-style: solid;
+        outline-color: #f3803b;
+      }
+      textarea {
+        padding: 12px;
+        width: 60%;
+        height: 180px;
+        color: rgb(40 40 40);
+        background-blend-mode: overlay;
+        background: white;
+        border: solid 2px #f3803b;
+      }
+      textarea:focus {
+        padding: 12px;
+        width: 60%;
+        height: 180px;
+        border-radius: 2px;
+        color: rgb(40 40 40);
+        border: solid 2px #f3803b;
+        background-blend-mode: overlay;
+        background: white;
+        box-shadow: 0 0 11px #f4803b;
+        outline-style: solid;
+        outline-color: #f3803b;
+      }
+      #submitBtnContainer {
+        justify-content: left;
+        display: flex;
+        width: 95%;
+      }
+      button {
+        background-color: rgb(243 128 59);
+        border: 0;
+        border-radius: 2px;
+        width: 100px;
+        height: 25px;
+        font-family: "FuturaStd-CondensedBold", Futura, Helvetica, Arial,
+          sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #fffffe;
+        margin-top: 10px;
+        /* margin-left: auto; */
+      }
+      #titleOne {
+        width: 123px;
+        height: 50px;
+        color: #fffffe;
+        font-family: "FuturaStd-CondensedBold", Futura, Helvetica, Arial,
+          sans-serif;
+        margin: 0 0 10px 0;
+        font-size: 3.5rem;
+        font-weight: 800;
+        -webkit-text-stroke: 2px;
+        -webkit-text-stroke-color: rgb(243 128 59);
+        color: transparent;
+      }
+      #titleTwo {
+        width: 272px;
+        font-size: 3.5rem;
+        font-weight: 600;
+        color: rgb(40 40 40);
+        font-family: "FuturaStd-CondensedBold", Futura, Helvetica, Arial,
+          sans-serif;
+        margin-bottom: 0px;
+      }
+      #interestTitle {
+        font-size: 16px;
+        color: rgb(40 40 40);
+        margin-top: 20px;
+        font-family: "FuturaStd-Condensed", Futura, Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      select {
+        display: inline-flex;
+        flex-direction: column;
+        width: 60%;
+        font-family: "FuturaStd-Condensed", Futura, Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        color: rgb(40 40 40);
+        padding: 10px 0;
+        @media (max-width: 500px) {
+          width: 100%;
+        }
+        @media (max-width: 320px) {
+          width: 100%;
+        }
+      }
+      td {
+        min-width: 50px;
+      }
+      #email {
+        min-width: 200px;
+        @media (max-width: 320px) {
+          min-width: 50px;
+        }
+      }
+      .starColor {
+        color: #f3803b;
+      }
+    </style>
+    <script type="text/javascript">
+      function onSubmit(token) {
+        var captchaResponse = document.getElementById(
+          "g-recaptcha-response"
+        ).value;
+        console.log("captcha response: ", captchaResponse);
+        if (captchaResponse != "") {
+          document.getElementById("main_form").submit();
+          alert("Thank you! Your email has been sent.");
+        } else {
+          alert("Please prove you're not a robot.");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <nlform>
+      <div id="containForm">
+        <nlsubsidiary>
+          <div id="titleOne">HELLO!</div>
+          <span id="titleTwo">LET'S CONNECT</span>
+        </nlsubsidiary>
+        <nlform class="formStyle" id="demo-form" action="?" method="POST">
+          <div>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <div>
+                      <div class="label" id="nlfirstname">
+                        First Name<sup class="starColor">*</sup>
+                      </div>
+                      <nlfirstname> </nlfirstname>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <div class="label">
+                        Last Name<sup class="starColor">*</sup>
+                      </div>
+                      <nllastname> </nllastname>
+                    </div>
+                  </td>
+                  <td id="email">
+                    <div>
+                      <div class="label">
+                        Email<sup class="starColor">*</sup>
+                      </div>
+                      <nlemail> </nlemail>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      <div class="label">Phone</div>
+                      <nlphone> </nlphone>
+                    </div>
+                  </td>
+                  <td style="min-width: 50px">
+                    <div>
+                      <div class="label">Company</div>
+                      <nlcompanyname> </nlcompanyname>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <div class="label">Message<sup class="starColor">*</sup></div>
+            <nlcomments> </nlcomments>
+          </div>
+          <div id="interestTitle">
+            I'm interested in...<sup class="starColor">*</sup>
+          </div>
+          <nlcustentitybrella_interest> </nlcustentitybrella_interest>
+          <div id="submitBtnContainer"></div>
+          <button
+            id="subButton"
+            class="g-recaptcha"
+            data-sitekey="6Lc6QKAkAAAAAP3Qr1lTKe-8RBxW1BvCh5iDBSlN"
+            data-callback="onSubmit"
+          >
+            Send Email
+          </button>
+        </nlform>
+      </div>
+    </nlform>
+  </body>
+</html>

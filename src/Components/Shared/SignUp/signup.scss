@@ -1,0 +1,31 @@
+.signup_title {
+  font-family: "FuturaStd-CondensedBold", Futura, "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.signup_text {
+  letter-spacing:1px;
+}
+.signup_button {
+  font-family: "FuturaStd-CondensedBold", Futura, "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 1px;
+  border:0;
+  background-color: #00b9b6;
+  color:#fff;
+  height: 34px;
+}
+.card-message{
+  color: black;
+}
+
+.card-message .text{
+  font-size: 20px;
+  display: flex;
+}
+
+.card-message .text img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}

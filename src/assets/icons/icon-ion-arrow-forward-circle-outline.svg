@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CA5F45B7-77E0-4B55-B2C7-2B3AAF5A19E4</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ion-arrow-forward-circle-outline">
+            <g id="Icon" transform="translate(4.000000, 4.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M12,24 C18.625,24 24,18.625 24,12 C24,5.375 18.625,0 12,0 C5.375,0 0,5.375 0,12 C0,18.625 5.375,24 12,24 Z" id="Icon-Path"/>
+                <path d="M12.41375,17 L17.375,12 L12.41375,7 M16.685625,12.01875 L6.625,12.01875" id="Combined-Shape"/>
+            </g>
+            <rect id="ViewBox" fill-rule="nonzero" x="0" y="0" width="32" height="32"/>
+        </g>
+    </g>
+</svg>
